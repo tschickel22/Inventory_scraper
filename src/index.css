@@ -1,0 +1,5 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+.btn { @apply inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-medium shadow-sm border border-gray-200 bg-white hover:bg-gray-100; }
+.card { @apply rounded-2xl bg-white shadow-sm border border-gray-200; }
+.card-h { @apply p-4 md:p-6 border-b border-gray-100; }
+.card-c { @apply p-4 md:p-6; }
